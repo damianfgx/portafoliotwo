@@ -9,15 +9,12 @@
 body {
   font-family: 'Poppins', sans-serif;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
 }
 
 main {
   flex: 1 0 auto;
 }
-
-
 
 .palabras {
   font-weight: bold;
@@ -262,3 +259,5 @@ p{
   cursor: pointer;
   background-image: linear-gradient(-45deg, #ff3b00 0%, #ae4dff 100%)
 }
+
+
