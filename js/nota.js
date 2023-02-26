@@ -8,3 +8,20 @@ window.addEventListener('blur', ()=>{
 window.addEventListener('focus',()=>{
     document.title = previousTitle
 })
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    renderTextCopyrigh( );
+
+});
+
+
+const renderTextCopyrigh = () => {
+    const year = new Date().getFullYear();
+     const text = document.querySelector('#text-copyright');
+ 
+ 
+     text.textContent = `© ${year} Made with love by Jafet Damian`;
+ }
