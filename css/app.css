@@ -44,13 +44,13 @@ main {
 }
 
 .badge span {
-  background-color: #fffbec;
+  background-color: #000;
   width: 60px;
   height: 25px;
   padding-bottom: 3px;
   border-radius: 5px;
   display: flex;
-  color: #fed85d;
+  color: #fff;
   justify-content: center;
   align-items: center
 }
